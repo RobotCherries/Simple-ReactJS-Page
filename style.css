@@ -1,0 +1,21 @@
+html, body { margin: 0; height: 100%;  }
+
+
+#root { min-height: 100%; position: relative; }
+
+
+nav { position: fixed; height: 50px; width: 100%; background: #4169e1; box-shadow: 2px 2px 15px #4169e1; }
+nav ul { display: grid; grid-template-columns: auto auto auto; justify-content: space-around; align-items: center; }
+nav li { display: inline-block; }
+nav a { text-decoration: none; color: white; }
+nav h1 { font-size: 20px; }
+
+
+main { padding: 80px 20px 100px 20px; display: grid; }
+
+
+article h1 { color: #0e1732; }
+article p { color: #575f75; line-height: 25px; }
+
+
+footer { box-sizing: border-box; height: 100px; width: 100%; padding: 10px 20px; color: #eee; background-color: #333b4d; position: absolute; bottom: 0; }
